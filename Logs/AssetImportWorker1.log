@@ -1,0 +1,398 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'tr' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\UNTY\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Yeni klasör/u99
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56584
+Successfully changed project path to: C:/Yeni klasör/u99
+C:/Yeni klasör/u99
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15276] Host "[IP] 192.168.1.56 [Port] 0 [Flags] 2 [Guid] 736373862 [EditorId] 736373862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54T85J1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15276] Host "[IP] 192.168.1.56 [Port] 0 [Flags] 2 [Guid] 736373862 [EditorId] 736373862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54T85J1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 176.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/UNTY/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Yeni klasör/u99/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX550/550 Series (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     4075 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/UNTY/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UNTY/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/UNTY/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UNTY/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UNTY/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009398 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 175.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013105 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Yeni klasör\u99\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Yeni klasör\u99\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 186.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1996ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (973ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (492ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5959 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.1 MB). Loaded Objects now: 6412.
+Memory consumption went from 254.0 MB to 252.0 MB.
+Total: 5.908300 ms (FindLiveObjects: 0.765100 ms CreateObjectMapping: 0.283900 ms MarkObjects: 4.121200 ms  DeleteObjects: 0.736700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20588.568595 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof_pillar.prefab
+  artifactKey: Guid(88e9169a6e1a34d43a3188cf129af93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof_pillar.prefab using Guid(88e9169a6e1a34d43a3188cf129af93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1599)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:80)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1600)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:80)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1603)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:80)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1599)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:81)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1600)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:81)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+Missing shader. PostProcessPass render pass will not execute. Check for missing reference in the renderer resources.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:Load (UnityEngine.Shader) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1610)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass/MaterialLibrary:.ctor (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:1603)
+UnityEngine.Rendering.Universal.Internal.PostProcessPass:.ctor (UnityEngine.Rendering.Universal.RenderPassEvent,UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs:95)
+UnityEngine.Rendering.Universal.PostProcessPasses:Recreate (UnityEngine.Rendering.Universal.PostProcessData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:81)
+UnityEngine.Rendering.Universal.PostProcessPasses:.ctor (UnityEngine.Rendering.Universal.PostProcessData,UnityEngine.Material) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/PostProcessPasses.cs:49)
+UnityEngine.Rendering.Universal.UniversalRenderer:.ctor (UnityEngine.Rendering.Universal.UniversalRendererData) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRenderer.cs:305)
+UnityEngine.Rendering.Universal.UniversalRendererData:Create () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/UniversalRendererData.cs:129)
+UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/ScriptableRendererData.cs:72)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:526)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs:476)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Passes/PostProcessPass.cs Line: 1610)
+
+ -> (artifact id: '56c5b75bb4c8f2ce850482db1081d5fc') in 2.555489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof.prefab
+  artifactKey: Guid(7d51fcf4d5425c64c84512b307b283c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof.prefab using Guid(7d51fcf4d5425c64c84512b307b283c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ef04fb2cef09cba5a2103d4c44cbea') in 0.025555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/chandellier.mat
+  artifactKey: Guid(07f10b3edb1500149ac678d91de17a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/chandellier.mat using Guid(07f10b3edb1500149ac678d91de17a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b0abccf2bf9f6b415ebbda6c05dc3a') in 0.836719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.931377 seconds.
+  path: Assets/Character/Animations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Locomotion--Run_N.anim.fbx using Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112a0a4471963b0eb0a0ad9497e58f0c') in 0.049893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
+  artifactKey: Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Locomotion--Walk_N_Land.anim.fbx using Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998074585fb85f2253cd750c01e3e313') in 0.013331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.941583 seconds.
+  path: Assets/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fe545df7bddabc5d69fbd087c35038') in 0.035666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.436716 seconds.
+  path: Assets/Environment/Art/Materials/GridBlue_01_Mat.mat
+  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa7833fb033bfff797b2f94f395f561') in 0.069770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/Art/Materials/ShaderGraphGrid_01_Mat.mat
+  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Materials/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4c0df6e6e182c9be503502252c3b8d') in 1.340005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.355504 seconds.
+  path: Assets/materyaller/castle_wall_varriation_rough_4k.jpg
+  artifactKey: Guid(b67c8e0cae35a394098b072a32abeed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materyaller/castle_wall_varriation_rough_4k.jpg using Guid(b67c8e0cae35a394098b072a32abeed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45473344ea0cd7fcda38db02847c75c4') in 0.070429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/materyaller/medieval_wall_02_disp_4k.png
+  artifactKey: Guid(af75b02e3b9983f439ec9c448b680a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materyaller/medieval_wall_02_disp_4k.png using Guid(af75b02e3b9983f439ec9c448b680a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8acde61a8be9a797d0b35466502206') in 0.046484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.062671 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx
+  artifactKey: Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx using Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ae6e8932fd5390f5725f65cda3720c') in 0.049878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx
+  artifactKey: Guid(9c33f225c6ee98243a57390a7235bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx using Guid(9c33f225c6ee98243a57390a7235bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4e9903c2c44326d6a88b1211d0aed') in 0.039334 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
