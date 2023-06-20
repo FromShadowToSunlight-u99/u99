@@ -30,7 +30,7 @@ Orta çağda haksız yere zindana atılan bir kişinin hikayesini oynadığımı
 
 Unity ile yapıldı
 
-Third Person
+Üçüncü kişi bakış açısı (Third Person)
 
 FPS
 
@@ -60,12 +60,12 @@ Sprint içinde tamamlanması tahmin edilen puan: 350 Puan
 
 Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 1000 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 300 ile başlaması gerektiğine karar verildi.
 
-Daily Scrum: Daily Scrum'lar her iki günde bir akşam saat 21:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantı 1 saat sürmüştür.
+Daily Scrum: Daily Scrum'lar her iki günde bir akşam saat 21:00'da Discord ses kanalı üzerinden yapılmıştır. Toplantılar genelde 1 saat civarı sürmüştür.
 
 
 Sprint Review:
 
-Alınan Kararlar:Oyunun hikayesine karar verildi ve görev dağılımı yapıldı.
+Alınan Kararlar: Oyunun hikayesinin nasıl olacağına karar verildi ve görev dağılımı yapıldı.
 
 
 Sprint Retrospective:
